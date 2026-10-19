@@ -1,0 +1,22 @@
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\bin\Debug\net10.0-windows\Praktikum 3_Operator.exe
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\bin\Debug\net10.0-windows\Praktikum 3_Operator.deps.json
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\bin\Debug\net10.0-windows\Praktikum 3_Operator.runtimeconfig.json
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\bin\Debug\net10.0-windows\Praktikum 3_Operator.dll
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\bin\Debug\net10.0-windows\Praktikum 3_Operator.pdb
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\Praktikum_3_Operator.Form1.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\Praktikum 3_Operator.vbproj.GenerateResource.cache
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\Praktikum 3_Operator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\Praktikum 3_Operator.AssemblyInfoInputs.cache
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\Praktikum 3_Operator.AssemblyInfo.vb
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\Praktikum 3_Operator.vbproj.CoreCompileInputs.cache
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\Praktikum 3_Operator.dll
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\refint\Praktikum 3_Operator.dll
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\Praktikum 3_Operator.pdb
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\Praktikum 3_Operator.genruntimeconfig.cache
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\ref\Praktikum 3_Operator.dll
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\Praktikum_3_Operator.Praktikum_2.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\Praktikum_3_Operator.Praktikum_3.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\Praktikum_3_Operator.Prsktikum_4.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\Praktikum_3_Operator.Praktikum_5.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\Praktikum_3_Operator.Tugas_Praktikum.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Praktikum 3_Operator\Praktikum 3_Operator\obj\Debug\net10.0-windows\Praktikum_3_Operator.Resources.resources

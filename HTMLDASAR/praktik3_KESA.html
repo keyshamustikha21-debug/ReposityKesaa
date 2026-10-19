@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAFTAR ANIME FAVORIT</title>
+
+    <style>
+        body {
+            font-family: "Trebuchet MS", ariel, sans-serif;
+            background-color: #f3e5f5;
+            margin : 0;
+            padding : 30px;
+        }
+
+        h1 {
+            text-align : center;
+            color : #4a148c;
+            font-size : 32px;
+            margin-bottom : 10px;
+        }
+
+        p {
+            text-align : center;
+            color : #555;
+            font-size : 16 px;
+        }
+
+        table {
+            width : 90%;
+            margin : 0 auto;
+            border-collapse : collapse;
+            background-color : white;
+            box-shadow : 0 5px 15px rgba(0, 0, 0, 0.2);
+            border-radius : 8px;
+            overflow : hidden;
+        }
+
+        th, td {
+            border : 1px solid #555;
+            padding : 14px;
+            text-align : center;
+        }
+
+        th {
+            background-color : #4a148c;
+            color : white;
+            font-size : 16px;
+        }
+
+        .judul {
+            background-color : #4a148c;
+            color : white;
+            font-size : 1px;
+        }
+
+        .genre {
+            background-color : #e1bee7;
+            color : #4a148c;
+            font-weight : bold;
+        }
+
+        tr:hover {
+            background-color : #f8f0fa;
+        }
+    </style>
+</head>
+<body>
+    <h1>Daftar Anime Favorit</h1>
+
+    <p>
+        Beberapa anime favorit berdasarkan genre,
+        studio, dan status penayangan. Data ini mencakup anime yang saya sukai :
+    </p>
+
+    <table>
+
+        <thead>
+        <tr>
+            <th>No.</th>
+            <th>Judul Anime</th>
+            <th>Genre</th>
+            <th>Studio</th>
+            <th>Status Anime</th>
+        </tr>
+        </thead>
+
+        <tbody>
+         <tr>
+            <td>1</td>
+            <td>One Piece</td>
+            <td rowspan = "3" class = "genre">Action</td>
+            <td>Toei Animation</td>
+            <td>Berlanjut</td>
+         </tr>
+
+         <tr>
+            <td>2</td>
+            <td>Attack Of Titan</td>
+            <td>WIT Studio / MAPPA</td>
+            <td>Tamat</td>
+         </tr>
+
+         <tr>
+            <td>3</td>
+            <td>Solo Leveling</td>
+            <td>A-1 pictures</td>
+            <td>Berlanjut</td>
+         </tr>
+
+          <tr>
+            <td>4</td>
+            <td>Detective Conan</td>
+            <td rowspan = "2" class = "genre">Mystery</td>
+            <td>TMS Entertairment</td>
+            <td>Berlanjut</td>
+          </tr> 
+
+          <tr>
+            <td>5</td>
+            <td>Ron Kamonohashi : Deranged Detective</td>
+            <td>Akira Amano</td>
+            <td>Berlanjut</td>
+          </tr>
+        </tbody>
+    </table>
+</body>
+</html>

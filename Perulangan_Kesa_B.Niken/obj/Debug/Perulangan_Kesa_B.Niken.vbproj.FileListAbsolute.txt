@@ -1,0 +1,14 @@
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Perulangan_Kesa_B.Niken\bin\Debug\Perulangan_Kesa_B.Niken.exe
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Perulangan_Kesa_B.Niken\bin\Debug\Perulangan_Kesa_B.Niken.pdb
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Perulangan_Kesa_B.Niken\bin\Debug\Perulangan_Kesa_B.Niken.xml
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Perulangan_Kesa_B.Niken\obj\Debug\Perulangan_Kesa_B.Niken.vbproj.AssemblyReference.cache
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Perulangan_Kesa_B.Niken\obj\Debug\Perulangan_Kesa_B.Niken.Form1.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Perulangan_Kesa_B.Niken\obj\Debug\Perulangan_Kesa_B.Niken.Resources.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Perulangan_Kesa_B.Niken\obj\Debug\Perulangan_Kesa_B.Niken.vbproj.GenerateResource.cache
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Perulangan_Kesa_B.Niken\obj\Debug\Perulangan_Kesa_B.Niken.vbproj.CoreCompileInputs.cache
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Perulangan_Kesa_B.Niken\obj\Debug\Perulangan_Kesa_B.Niken.exe
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Perulangan_Kesa_B.Niken\obj\Debug\Perulangan_Kesa_B.Niken.xml
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Perulangan_Kesa_B.Niken\obj\Debug\Perulangan_Kesa_B.Niken.pdb
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Perulangan_Kesa_B.Niken\obj\Debug\Perulangan_Kesa_B.Niken.Form2.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Perulangan_Kesa_B.Niken\obj\Debug\Perulangan_Kesa_B.Niken.Tugas_1.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\Perulangan_Kesa_B.Niken\obj\Debug\Perulangan_Kesa_B.Niken.Tugas_2.resources

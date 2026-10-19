@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Form Pemesanan Makanan dan Minuman</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .form-container {
+            width: 500px;
+            max-width: 100%;
+            margin: auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            color: #e67e22;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #e67e22;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 8px;
+            margin-top: 25px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 6px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #e67e22;
+        }
+
+        textarea {
+            height: 80px;
+            resize: vertical;
+        }
+
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: normal;
+        }
+
+        .checkbox-label input {
+            width: auto;
+        }
+
+        .total {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #fff3e0;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #totalHarga {
+            color: #e67e22;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 6px;
+            background-color: #e67e22;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #d35400;
+        }
+
+        .reset-button {
+            background-color: #777;
+        }
+
+        .reset-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <h1>Form Pemesanan</h1>
+
+        <form id="formPesanan">
+
+            <h2>Data Pemesan</h2>
+
+            <label for="nama">Nama Pemesan</label>
+            <input
+                type="text"
+                id="nama"
+                name="nama"
+                placeholder="Masukkan nama lengkap"
+                required
+            >
+
+            <label for="telepon">Nomor Telepon</label>
+            <input
+                type="tel"
+                id="telepon"
+                name="telepon"
+                placeholder="08xxxxxxxxxx"
+                pattern="[0-9]{10,13}"
+                required
+            >
+
+            <h2>🍽️ Pilihan Makanan</h2>
+
+            <label for="makanan">Makanan</label>
+
+            <select id="makanan" name="makanan" required>
+
+                <option value="">-- Pilih Makanan --</option>
+
+                <option value="15000">
+                    Nasi Goreng - Rp15.000
+                </option>
+
+                <option value="18000">
+                    Ayam Geprek - Rp18.000
+                </option>
+
+                <option value="12000">
+                    Dimsum - Rp12.000
+                </option>
+
+            </select>
+
+
+            <label for="jumlahMakanan">Jumlah Makanan</label>
+
+            <input
+                type="number"
+                id="jumlahMakanan"
+                name="jumlahMakanan"
+                min="1"
+                value="1"
+                required
+            >
+
+            <h2>🥤 Pilihan Minuman</h2>
+
+            <label for="minuman">Minuman</label>
+
+            <select id="minuman" name="minuman" required>
+
+                <option value="">-- Pilih Minuman --</option>
+
+                <option value="5000">
+                    Es Teh - Rp5.000
+                </option>
+
+                <option value="7000">
+                    Es Jeruk - Rp7.000
+                </option>
+
+                <option value="10000">
+                    Cokelat - Rp10.000
+                </option>
+
+                <option value="12000">
+                    Matcha - Rp12.000
+                </option>
+
+            </select>
+
+
+            <label for="jumlahMinuman">Jumlah Minuman</label>
+
+            <input
+                type="number"
+                id="jumlahMinuman"
+                name="jumlahMinuman"
+                min="1"
+                value="1"
+                required
+            >
+
+            <label for="ukuran">Ukuran Minuman</label>
+
+            <select id="ukuran" name="ukuran">
+
+                <option value="0">
+                    Regular
+                </option>
+
+                <option value="3000">
+                    Large (+Rp3.000)
+                </option>
+
+            </select>
+
+            <label>Topping Minuman</label>
+
+            <label class="checkbox-label">
+                <input
+                    type="checkbox"
+                    class="topping"
+                    value="3000"
+                >
+                Boba (+Rp3.000)
+            </label>
+
+            <label class="checkbox-label">
+                <input
+                    type="checkbox"
+                    class="topping"
+                    value="2000"
+                >
+                Jelly (+Rp2.000)
+            </label>
+
+            <h2>📋 Detail Pesanan</h2>
+
+            <label for="jenisPesanan">Jenis Pesanan</label>
+
+            <select
+                id="jenisPesanan"
+                name="jenisPesanan"
+                required
+            >
+
+                <option value="">
+                    -- Pilih Jenis Pesanan --
+                </option>
+
+                <option value="Makan di Tempat">
+                    Makan di Tempat
+                </option>
+
+                <option value="Dibawa Pulang">
+                    Dibawa Pulang
+                </option>
+
+            </select>
+
+
+            <label for="alamat">Alamat</label>
+
+            <textarea
+                id="alamat"
+                name="alamat"
+                placeholder="Masukkan alamat jika dibawa pulang"
+            ></textarea>
+
+
+            <label for="pembayaran">Metode Pembayaran</label>
+
+            <select
+                id="pembayaran"
+                name="pembayaran"
+                required
+            >
+
+                <option value="">
+                    -- Pilih Pembayaran --
+                </option>
+
+                <option value="Cash">
+                    Cash
+                </option>
+
+                <option value="QRIS">
+                    QRIS
+                </option>
+
+                <option value="E-Wallet">
+                    E-Wallet
+                </option>
+
+            </select>
+
+
+            <label for="catatan">Catatan</label>
+
+            <textarea
+                id="catatan"
+                name="catatan"
+                placeholder="Contoh: tidak pedas, tanpa bawang, dll."
+            ></textarea>
+
+            <label class="checkbox-label">
+
+                <input
+                    type="checkbox"
+                    id="persetujuan"
+                    name="persetujuan"
+                    required
+                >
+
+                Saya memastikan pesanan sudah benar.
+
+            </label>
+
+            <div class="total">
+
+                Total Harga:
+                <span id="totalHarga">Rp0</span>
+
+            </div>
+
+            <button type="submit">
+                Pesan Sekarang
+            </button>
+
+            <button
+                type="reset"
+                class="reset-button"
+            >
+                Reset
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <script>
+
+        const makanan = document.getElementById("makanan");
+        const jumlahMakanan = document.getElementById("jumlahMakanan");
+
+        const minuman = document.getElementById("minuman");
+        const jumlahMinuman = document.getElementById("jumlahMinuman");
+
+        const ukuran = document.getElementById("ukuran");
+
+        const topping = document.querySelectorAll(".topping");
+
+        const totalHarga = document.getElementById("totalHarga");
+
+        const formPesanan = document.getElementById("formPesanan");
+
+        function hitungTotal() {
+            const hargaMakanan = Number(makanan.value);
+            const qtyMakanan = Number(jumlahMakanan.value) || 0;
+
+            const hargaMinuman = Number(minuman.value);
+            const qtyMinuman = Number(jumlahMinuman.value) || 0;
+            const tambahanUkuran = Number(ukuran.value);
+
+            const totalMakanan =
+                hargaMakanan * qtyMakanan;
+
+            const totalMinuman =
+                (hargaMinuman + tambahanUkuran)
+                * qtyMinuman;
+
+            let totalTopping = 0;
+
+            topping.forEach(function(item) {
+
+                if (item.checked) {
+                    totalTopping += Number(item.value);
+                }
+
+            });
+
+            const total =
+                totalMakanan
+                + totalMinuman
+                + totalTopping;
+
+            totalHarga.textContent =
+                "Rp" + total.toLocaleString("id-ID");
+
+        }
+
+        makanan.addEventListener(
+            "change",
+            hitungTotal
+        );
+
+        jumlahMakanan.addEventListener(
+            "input",
+            hitungTotal
+        );
+
+        minuman.addEventListener(
+            "change",
+            hitungTotal
+        );
+
+        jumlahMinuman.addEventListener(
+            "input",
+            hitungTotal
+        );
+
+        ukuran.addEventListener(
+            "change",
+            hitungTotal
+        );
+
+        topping.forEach(function(item) {
+
+            item.addEventListener(
+                "change",
+                hitungTotal
+            );
+
+        });
+
+        formPesanan.addEventListener(
+            "submit",
+            function(event) {
+
+                event.preventDefault();
+
+                alert(
+                    "Pesanan berhasil dibuat!\n\n" +
+                    "Total harga: " +
+                    totalHarga.textContent
+                );
+
+            }
+        );
+
+        formPesanan.addEventListener(
+            "reset",
+            function() {
+
+                setTimeout(function() {
+
+                    totalHarga.textContent = "Rp0";
+
+                }, 0);
+
+            }
+        );
+
+    </script>
+
+</body>
+</html>

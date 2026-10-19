@@ -1,0 +1,16 @@
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\VALIDASI_KESA_b.niken\obj\Debug\VALIDASI_KESA_b.niken.vbproj.AssemblyReference.cache
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\VALIDASI_KESA_b.niken\obj\Debug\VALIDASI_KESA_b.niken.Form1.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\VALIDASI_KESA_b.niken\obj\Debug\VALIDASI_KESA_b.niken.Resources.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\VALIDASI_KESA_b.niken\obj\Debug\VALIDASI_KESA_b.niken.vbproj.GenerateResource.cache
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\VALIDASI_KESA_b.niken\obj\Debug\VALIDASI_KESA_b.niken.vbproj.CoreCompileInputs.cache
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\VALIDASI_KESA_b.niken\bin\Debug\VALIDASI_KESA_b.niken.exe
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\VALIDASI_KESA_b.niken\bin\Debug\VALIDASI_KESA_b.niken.pdb
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\VALIDASI_KESA_b.niken\bin\Debug\VALIDASI_KESA_b.niken.xml
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\VALIDASI_KESA_b.niken\obj\Debug\VALIDASI_KESA_b.niken.exe
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\VALIDASI_KESA_b.niken\obj\Debug\VALIDASI_KESA_b.niken.xml
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\VALIDASI_KESA_b.niken\obj\Debug\VALIDASI_KESA_b.niken.pdb
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\VALIDASI_KESA_b.niken\obj\Debug\VALIDASI_KESA_b.niken.FORM_LOGIN.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\VALIDASI_KESA_b.niken\obj\Debug\VALIDASI_KESA_b.niken.RATA__NILAI.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\VALIDASI_KESA_b.niken\obj\Debug\VALIDASI_KESA_b.niken.APK_CEK_UMUR.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\VALIDASI_KESA_b.niken\obj\Debug\VALIDASI_KESA_b.niken.FORM_PENDAFTARAN_SISWA_BARU.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\VALIDASI_KESA_b.niken\obj\Debug\VALIDASI_KESA_b.niken.Praktikumvb.resources

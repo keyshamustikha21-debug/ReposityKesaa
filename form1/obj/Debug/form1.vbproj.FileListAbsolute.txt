@@ -1,0 +1,6 @@
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\form1\obj\Debug\form1.vbproj.AssemblyReference.cache
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\form1\obj\Debug\form1.vbproj.SuggestedBindingRedirects.cache
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\form1\obj\Debug\form1.FormDiskon.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\form1\obj\Debug\form1.Resources.resources
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\form1\obj\Debug\form1.vbproj.GenerateResource.cache
+C:\Users\rplsk\Documents\Keysha_XI RPL !_17\form1\obj\Debug\form1.vbproj.CoreCompileInputs.cache

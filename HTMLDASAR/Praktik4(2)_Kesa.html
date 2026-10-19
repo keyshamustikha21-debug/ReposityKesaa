@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Sederhana</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: arial, helvetica, sans-serif;
+            background-color: #f5f6ff;
+            color: #27304a;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+
+        header {
+            background-color: linear-gradient(135deg, #e9e8ff, #dfe8ff);
+            padding: 30px 8%;
+            border-bottom: 1px solid #d8dcf0;
+        }
+
+        header > section {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        header h1 {
+            color: #202957;
+            font-family: georgia, "Times New Roman", serif;
+            font-size: 42px;
+            margin-bottom: 18px;
+        }
+
+        nav {
+            display: flex;
+            gap: 10px;
+        }
+
+        nav a {
+            color:#3f4770;
+            padding: 9px 18px;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #6366d9;
+            color: white;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 45px auto;
+            padding: 0 20px;
+
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap:30px;
+        }
+
+        main > section {
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+        }
+
+        article {
+            position: relative;
+            background-color: white;
+            padding: 28px;
+            border-radius: 18px;
+            border: 1px solid #e2e5f2;
+            box-shadow: 0 8px 25px rgba(40, 45, 80, 0.07);
+            transition: 0.3s;
+        }
+
+        article:hover {
+            transform: transLatey(-3px);
+            box-shadow: 0 12px 30px rgba(40, 45, 80, 0.12);
+        }
+
+        article h2 {
+            color: #222a52;
+            font-family: georgia, "Times New Roman", serif;
+            font-size: 27px;
+            margin-bottom: 16px;
+        }
+
+        article p {
+            color: #626b82;
+            font-size: 16px;
+        }
+
+        aside {
+            background-color: white;
+            height: fit-content;
+            padding: 28px;
+            border-radius: 18px;
+            border: 1px solid #e2e5f2;
+            box-shadow: 0 8px 25px rgba(40, 45, 80, 0.07);
+        }
+
+        aside h2 {
+            color: #222a52;
+            font-family: georgia, "Times New Roman", serif;
+            font-size: 24px;
+            margin-bottom: 18px;
+        }
+
+        aside ul {
+            padding-left: 22px;
+        }
+
+        aside li {
+            margin-bottom: 10px;
+            color: #59627a;
+        }
+
+        footer {
+            background-color: #252d47;
+            color: #dce1f0;
+            text-align: center;
+            padding: 24px;
+            margin-top: 50px;
+        }
+
+        @Media (max-witdh: 768px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+
+            header {
+                padding: 25px 6%;
+            }
+
+            header h1 {
+                font-size: 34px;
+            }
+
+            nav {
+                flex-wrap: wrap;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header> 
+        <section>
+            <h1>Blog Pribadiku</h1>
+
+            <nav aria-label="Navigasi Utama">
+                <a href="#">Home</a>
+                <a href="#">Tentang</a>
+                <a href="#">Kontak</a>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h2>Belajar HTML itu Menyenangkan</h2>
+                <p>HTML adalah fondasi dari semua halaman website...</p>
+            </article>
+            <article>
+                <h2>Pentingnya CSS</h2>
+                <P>CSS digunakan untuk menghias halaman website kita...</P>
+            </article>
+        </section>
+        <aside>
+            <h2>Postingan Populer</h2>
+            <ul>
+                <il>Belajar HTML</il>
+                <il>Belajar CSS</il>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Hak Cipta @ 2026</p>
+    </footer>
+</body>
+</html>
